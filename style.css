@@ -468,6 +468,7 @@ textarea.form__input {
 .footer-item {
     padding: 10px 0;
     text-align: center;
+    color: #000;
 }
 .footer-span {
     font-size: 20px;
