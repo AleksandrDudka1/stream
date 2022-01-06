@@ -474,7 +474,13 @@ textarea.form__input {
     font-size: 20px;
     font-weight: 400;
 }
-
+.footer-item a {
+    color: #000;
+    transition: 0.5s;
+}
+.footer-item a:hover {
+    color: #2f9cf5;
+}
 
 
 
