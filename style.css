@@ -662,7 +662,7 @@ video {
         padding: 10px;
         z-index: 10;
     }
-    .phone {
+    nav .phone {
         display: none;
     }
     .nav-ul.show {
