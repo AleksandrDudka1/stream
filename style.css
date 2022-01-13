@@ -124,8 +124,13 @@ body {
     background: url(img/header3.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 1000px ;
+    height: 1000px;
 }
+/* @media(max-width: 975px) {
+    .top {
+    background: url(img/975px.jpg) no-repeat;
+    }
+} */
 .top-heading {
      padding-top: 150px;
      text-align: center;
@@ -351,7 +356,7 @@ body {
 
 .price {
     text-align: center;
-    padding-top: 50px;
+    padding: 50px;
     background: #636363;
     color: #c0c0c0;
 }
@@ -360,7 +365,6 @@ body {
 
 .price-title {
     font-size: 24px;
-    color: #c0c0c0;
     font-weight: 400;
     line-height: 50px;
 }
@@ -373,9 +377,7 @@ body {
 
 
 /* form-contact */
-.form-contact {
-    padding-top: 50px;
-}
+
 .form {
     color: #000;
     max-width: 500px;
@@ -451,7 +453,7 @@ textarea.form__input {
 
 
 
-/* kontact */
+/* footer */
 
 .footer {
     background: #1a73a8;
@@ -459,10 +461,11 @@ textarea.form__input {
     display: flex;
     justify-content: center;
     color: #C0C0C0;
-}
 
+}
 .footer-title {
     font-size: 30px;
+    color: #fff;
     font-weight: 400;
     line-height: 50px;
 }
@@ -504,7 +507,7 @@ textarea.form__input {
 }
 .social-href:hover {
     text-decoration: none;
-    color: #000;
+
 }
 .social__item {
     width: 40px;
@@ -545,18 +548,19 @@ textarea.form__input {
 
 
 .top-promo {
-    background: url(img/promo_header.jpg) no-repeat;
+    background: url(img/promo__top.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px ;
+    height: 500px;
 }
+
 .top-heading-promo {
      padding-top: 150px;
      text-align: center;
 }
 
 .top-title-promo {
-    color: #000;
+    color: #fff;
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
@@ -587,6 +591,7 @@ textarea.form__input {
     color: #696969;
     font-size: 20px;
     line-height: 25px;
+    text-align: center;
 }
 
 /* isPromo-type */
@@ -605,6 +610,7 @@ textarea.form__input {
     letter-spacing: 2px;
     text-align: center;
     font-size: 27px;
+    line-height: 30px;
 }
 
 
@@ -751,6 +757,8 @@ video {
     }
 }
 
+
+
 @media(max-width: 675px) {
     .strim-item {
 
@@ -846,6 +854,9 @@ video {
     .top-text {
         font-size: 16px;
     }
+    .footer-title {
+        font-size: 24px;
+    }
 }
 @media(max-width: 330px) { 
     .for h1 {
@@ -863,6 +874,7 @@ video {
         font-size: 27px;
         line-height: 45px;
     }
+
 }
 
 @media(max-width: 319px) { 
@@ -880,6 +892,6 @@ video {
         font-size: 16px;
     }
     .footer-title {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
