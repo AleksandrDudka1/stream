@@ -422,6 +422,7 @@ body {
     text-align: center;
 }
 .form__input._error {
+    border: 1px solid red;
     box-shadow: 0 0 15px red;
     transition: 0.7s;
 }
